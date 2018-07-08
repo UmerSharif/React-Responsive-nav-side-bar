@@ -1,12 +1,16 @@
 import React from 'react';
 import  './Toolbar.css';
+import DrawerToddleButton from '../sidedrawer/DrawerToggleButton';
 
 const toolbar = props => (
 
     <header className="toolbar">
         <nav className="toolbar__navigation">
-            <div></div>
+            <div>
+                <DrawerToddleButton />
+            </div>
             <div className="toolbar__logo"><a href="/">The Logo</a></div>
+            <div className="spacer" />
             <div className="toolbar__navigation__items">
                 <ul>
                     <li><a href="/">Product</a></li>

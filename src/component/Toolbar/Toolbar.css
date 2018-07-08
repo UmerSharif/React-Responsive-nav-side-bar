@@ -14,6 +14,10 @@
     padding: 0 1rem;
 }
 
+.spacer {
+    flex: 1;
+}
+
 .toolbar__navigation__items a {
     color: #ffffff;
     text-decoration: none;
@@ -33,6 +37,10 @@
 .toolbar__navigation__items a:hover,
 .toolbar__navigation__items a:active {
     color: #fa923f;
+}
+
+.toolbar__logo {
+    margin-left: 1rem;
 }
 
 .toolbar__logo a {
