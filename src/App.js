@@ -14,7 +14,6 @@ class App extends Component {
         }
     }
 
-    // handleClick = () => {};
     handleClick = () => {
 
         this.setState((prevState) => {
@@ -22,7 +21,6 @@ class App extends Component {
         } );
 
     };
-
 
 
   render() {
