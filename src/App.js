@@ -22,6 +22,14 @@ class App extends Component {
 
     };
 
+    backDropToggleHandler = () => {
+
+        this.setState((prevState) =>{
+            return {sideDrawerOpen : !prevState.sideDrawerOpen}
+        });
+
+    };
+
 
   render() {
 
@@ -30,7 +38,7 @@ class App extends Component {
 
         if(this.state.sideDrawerOpen){
             sideDrawer = <SideDrawer />;
-            backDrop = <BackDrop />
+            backDrop = <BackDrop backDropClickHandler = {this.backDropToggleHandler}/>
         }
 
     return (

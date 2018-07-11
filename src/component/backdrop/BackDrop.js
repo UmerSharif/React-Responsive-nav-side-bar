@@ -3,7 +3,7 @@ import './BackDrop.css';
 
 const BackDrop = props => (
 
-    <div className="backdrop"></div>
+    <div className="backdrop" onClick={props.backDropClickHandler}></div>
 
 );
 
